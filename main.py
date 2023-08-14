@@ -2,8 +2,7 @@ import urllib.request
 import cv2
 import numpy as np
 
-# from ultralytics.yolo.v8.detect.predict import DetectionPredictor
-url = 'http://100.83.126.26:8080/shot.jpg'
+url = 'http://<local_ip:port>/shot.jpg'
 
 while True:
     imgResp = urllib.request.urlopen(url)
